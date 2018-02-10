@@ -1,0 +1,34 @@
+{
+  "name": "ardy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "enzyme": "^3.3.0",
+    "firebase": "^4.9.1",
+    "jest": "^20.0.4",
+    "jsfeat": "^0.0.8",
+    "lodash.isequal": "^4.5.0",
+    "material-ui": "^1.0.0-beta.32",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-media": "^1.8.0",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.0",
+    "react-test-renderer": "^16.2.0",
+    "require-ensure": "^1.0.2",
+    "three": "^0.89.0",
+    "three-collada-loader-2": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme-adapter-react-15": "^1.0.5",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "webpack": "^3.10.0"
+  }
+}
