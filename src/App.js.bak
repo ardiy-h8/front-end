@@ -1,0 +1,70 @@
+import React, { Component } from 'react';
+import { graphql } from 'react-apollo'
+import gql from 'graphql-tag';
+
+class App extends Component {
+  state = {
+    name: '',
+    cover: ''
+  }
+
+  handleFile(event) {
+    const files = event.target.files
+
+    for (let i = 0; i < files.length; i++) {
+      const reader = new FileReader();
+      reader.onload = event => {
+        this.setState({cover: event.target.result})
+      }
+      reader.readAsDataURL(files[i]);
+    }
+  }
+
+  handleUpload() {
+    const name = this.state.name
+    const cover = this.state.cover
+    console.log(cover)
+
+    this.props
+      .mutate({
+        variables: { name, cover }
+      })
+      .then(({ data }) => console.log('got data', data))
+      .catch(err => console.log('got error', err))
+  }
+
+  render() {
+    return (
+      <div>
+        <input
+          placeholder='Magazine Name'
+          onChange={e => this.setState({name: e.target.value})}
+        />
+        <br />
+        <input
+          style={{display: 'none'}}
+          type='file'
+          accept='image/*'
+          onChange={this.handleFile.bind(this)}
+          ref={input => this.cover = input}
+        />
+
+        <button onClick={() => this.cover.click()}>Add file</button>
+        <button onClick={this.handleUpload.bind(this)}>Upload file</button>
+      </div>
+    );
+  }
+}
+
+const query = gql`
+  mutation createMagazine($name: String!, $cover: String!) {
+    createMagazine (
+      name: $name,
+      cover: $cover
+    ) {
+      id name cover
+    }
+  }
+`
+
+export default graphql(query)(App);
