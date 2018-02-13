@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`login button should render button facebook correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WithStyles(Button)
+    onClick={[Function]}
+    variant="raised"
+>
+    <i
+        className="fab fa-google"
+    />
+    Login With Facebook
+</WithStyles(Button)>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <i
+          className="fab fa-google"
+/>,
+        "Login With Facebook",
+      ],
+      "classes": Object {
+        "colorInherit": "MuiButton-colorInherit-5",
+        "disabled": "MuiButton-disabled-10",
+        "fab": "MuiButton-fab-11",
+        "flatPrimary": "MuiButton-flatPrimary-3",
+        "flatSecondary": "MuiButton-flatSecondary-4",
+        "fullWidth": "MuiButton-fullWidth-15",
+        "keyboardFocused": "MuiButton-keyboardFocused-7",
+        "label": "MuiButton-label-2",
+        "mini": "MuiButton-mini-12",
+        "raised": "MuiButton-raised-6",
+        "raisedPrimary": "MuiButton-raisedPrimary-8",
+        "raisedSecondary": "MuiButton-raisedSecondary-9",
+        "root": "MuiButton-root-1",
+        "sizeLarge": "MuiButton-sizeLarge-14",
+        "sizeSmall": "MuiButton-sizeSmall-13",
+      },
+      "color": "default",
+      "disableFocusRipple": false,
+      "disableRipple": false,
+      "disabled": false,
+      "fullWidth": false,
+      "mini": false,
+      "onClick": [Function],
+      "size": "medium",
+      "type": "button",
+      "variant": "raised",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "fab fa-google",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "i",
+      },
+      "Login With Facebook",
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <i
+            className="fab fa-google"
+/>,
+          "Login With Facebook",
+        ],
+        "classes": Object {
+          "colorInherit": "MuiButton-colorInherit-5",
+          "disabled": "MuiButton-disabled-10",
+          "fab": "MuiButton-fab-11",
+          "flatPrimary": "MuiButton-flatPrimary-3",
+          "flatSecondary": "MuiButton-flatSecondary-4",
+          "fullWidth": "MuiButton-fullWidth-15",
+          "keyboardFocused": "MuiButton-keyboardFocused-7",
+          "label": "MuiButton-label-2",
+          "mini": "MuiButton-mini-12",
+          "raised": "MuiButton-raised-6",
+          "raisedPrimary": "MuiButton-raisedPrimary-8",
+          "raisedSecondary": "MuiButton-raisedSecondary-9",
+          "root": "MuiButton-root-1",
+          "sizeLarge": "MuiButton-sizeLarge-14",
+          "sizeSmall": "MuiButton-sizeSmall-13",
+        },
+        "color": "default",
+        "disableFocusRipple": false,
+        "disableRipple": false,
+        "disabled": false,
+        "fullWidth": false,
+        "mini": false,
+        "onClick": [Function],
+        "size": "medium",
+        "type": "button",
+        "variant": "raised",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "fab fa-google",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "i",
+        },
+        "Login With Facebook",
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`login button should render button google correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WithStyles(Button)
+    onClick={[Function]}
+    variant="raised"
+>
+    <i
+        className="fab fa-google"
+    />
+    Login With Google
+</WithStyles(Button)>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "children": Array [
+        <i
+          className="fab fa-google"
+/>,
+        "Login With Google",
+      ],
+      "classes": Object {
+        "colorInherit": "MuiButton-colorInherit-5",
+        "disabled": "MuiButton-disabled-10",
+        "fab": "MuiButton-fab-11",
+        "flatPrimary": "MuiButton-flatPrimary-3",
+        "flatSecondary": "MuiButton-flatSecondary-4",
+        "fullWidth": "MuiButton-fullWidth-15",
+        "keyboardFocused": "MuiButton-keyboardFocused-7",
+        "label": "MuiButton-label-2",
+        "mini": "MuiButton-mini-12",
+        "raised": "MuiButton-raised-6",
+        "raisedPrimary": "MuiButton-raisedPrimary-8",
+        "raisedSecondary": "MuiButton-raisedSecondary-9",
+        "root": "MuiButton-root-1",
+        "sizeLarge": "MuiButton-sizeLarge-14",
+        "sizeSmall": "MuiButton-sizeSmall-13",
+      },
+      "color": "default",
+      "disableFocusRipple": false,
+      "disableRipple": false,
+      "disabled": false,
+      "fullWidth": false,
+      "mini": false,
+      "onClick": [Function],
+      "size": "medium",
+      "type": "button",
+      "variant": "raised",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "fab fa-google",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "i",
+      },
+      "Login With Google",
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "children": Array [
+          <i
+            className="fab fa-google"
+/>,
+          "Login With Google",
+        ],
+        "classes": Object {
+          "colorInherit": "MuiButton-colorInherit-5",
+          "disabled": "MuiButton-disabled-10",
+          "fab": "MuiButton-fab-11",
+          "flatPrimary": "MuiButton-flatPrimary-3",
+          "flatSecondary": "MuiButton-flatSecondary-4",
+          "fullWidth": "MuiButton-fullWidth-15",
+          "keyboardFocused": "MuiButton-keyboardFocused-7",
+          "label": "MuiButton-label-2",
+          "mini": "MuiButton-mini-12",
+          "raised": "MuiButton-raised-6",
+          "raisedPrimary": "MuiButton-raisedPrimary-8",
+          "raisedSecondary": "MuiButton-raisedSecondary-9",
+          "root": "MuiButton-root-1",
+          "sizeLarge": "MuiButton-sizeLarge-14",
+          "sizeSmall": "MuiButton-sizeSmall-13",
+        },
+        "color": "default",
+        "disableFocusRipple": false,
+        "disableRipple": false,
+        "disabled": false,
+        "fullWidth": false,
+        "mini": false,
+        "onClick": [Function],
+        "size": "medium",
+        "type": "button",
+        "variant": "raised",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "fab fa-google",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "i",
+        },
+        "Login With Google",
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
