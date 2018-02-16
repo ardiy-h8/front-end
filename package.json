@@ -1,0 +1,45 @@
+{
+  "name": "ardy",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-client-preset": "^1.0.8",
+    "axios": "^0.17.1",
+    "enzyme": "^3.3.0",
+    "firebase": "^4.9.1",
+    "graphql": "^0.13.0",
+    "graphql-tag": "^2.7.3",
+    "javascript-time-ago": "^1.0.28",
+    "jest": "^20.0.4",
+    "jsfeat": "^0.0.8",
+    "lodash.isequal": "^4.5.0",
+    "material-ui": "^1.0.0-beta.32",
+    "material-ui-icons": "^1.0.0-beta.17",
+    "react": "^16.2.0",
+    "react-apollo": "^2.0.4",
+    "react-dom": "^16.2.0",
+    "react-media": "^1.8.0",
+    "react-redux": "^5.0.6",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.0",
+    "react-test-renderer": "^16.2.0",
+    "react-time-ago": "^1.0.11",
+    "redux": "^3.7.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.2.0",
+    "require-ensure": "^1.0.2",
+    "three": "^0.89.0",
+    "three-collada-loader-2": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "jest": "jest",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme-adapter-react-15": "^1.0.5",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "webpack": "^3.10.0"
+  }
+}
